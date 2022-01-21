@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://{[page404](https://page404-d56b2.web.app/)}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{[repoPage404](https://github.com/SebasttianDaza/404-Not-Found-Master#features)}">
       Solution
     </a>
     <span> | </span>
@@ -37,22 +37,23 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](assets/page404.jpg)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Website complete the project of challenge de Dev Challenge ❤️
 
-- Where can I see your demo?
+- Where can I see your demo? [Here](https://page404-d56b2.web.app/)
 - What was your experience?
+    I learned a some about design responsive web with just HTML and CSS.
 - What have you learned/improved?
+    I learned more about CSS Grid and CSS Flexbox.
 - Your wisdom? :)
-
+    Is better learn with projects.
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Features
 
@@ -71,6 +72,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [emprendeyourlifestyle](https://{[your-web-site-link](http://emprendeyourlifestyle.com/)})
+- GitHub [@sebasttiandaza](https://{github.com/sebasttiandaza})
+- Twitter [@SebasttianDaza](https://{twitter.com/SebasttianDaza})

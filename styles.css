@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-family: 'Space Mono', monospace;
+    ---font-secondaty: 'Inconsolata', monospace;
+    --color-primary: #FFFFFF;
+    --color-secondary:#333333 ;
+}
+
+
+body {
+    background-color: var(--color-primary);
+    font-family: var(--font-family);
+    color: var(--color-secondary);
+    margin: 1rem;
+}
+
+/* Nav */
+
+#nav {
+    width: auto;
+    top: 40px;
+    left: 77px;
+    height: 25px;
+}
+
+#nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(---font-secondaty);
+    font-style: normal;
+    line-height: 25px;
+}
+
+/* Main Principal */
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: 80vh;
+}
+
+
+@media (max-width: 845px ) {
+    body {
+        height: auto;
+    }
+    
+    #menu {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        height: auto;
+    }
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 70%;
+}
+
+#image img{
+    max-width: 100%;
+    height: auto;
+}
+
+#information {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 2rem;
+    width: 70%;
+}
+
+#information h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--color-secondary);
+}
+
+#information p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: var(--color-secondary);
+}
+
+#information button {
+    width: 195px;
+    height: 50px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer ;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+.footer p {
+    text-align:center ;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1020px) {
+    #menu {
+        height: auto;
+    }
+}
